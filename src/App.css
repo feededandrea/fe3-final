@@ -1,0 +1,214 @@
+.doctorCard {
+    display: flex;
+    background: #e9e9e98c;
+    border-radius: 10px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    width: 210px;
+    list-style: none;
+    margin: 8px;
+    transition: all 0.3s;
+}
+.doctorCard:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+    cursor:pointer;
+}
+.doctorCard img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.doctorCard li {
+    list-style: none;
+    margin: 10px;
+    color:#000;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.doctorCard p {
+    list-style: none;
+    font-size: medium;
+    color:#000;
+    margin: -5px 0px 18px 0px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.doctorCard button {
+    border-radius: 10px;
+    border-width: 0px;
+    background: transparent;
+    transform: scale(0.9);
+    transition: all 0.3s;
+}
+.doctorCard button:hover {
+    transform: scale(1);
+    transition: all 0.3s;
+}
+.doctorCard button img:hover {
+    filter: brightness(1.15);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.doctorCard button img {
+    width: 30px;
+    height: 30px;
+    transition: all 0.3s;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    background: #aacdde;
+    margin: 0px 0px 30px 0px;
+    color: #fff;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav a {
+    padding: 10px;
+    margin: 10px;
+    transform: scale(1);
+    transition: all 0.3s;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.nav a:hover {
+    background:#56b9db;
+    transform: scale(1.2);
+    transition: all 0.3s;
+    cursor:pointer;
+}
+
+.detailCard img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    margin: 0px 55px;
+    transform: translate(-40px, 0px);
+}
+
+.detailCard {
+    list-style: none;    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.detailCard p {
+    list-style: none;
+    margin:5px;
+}
+.domicilioCompania .title {
+    font-size: 25px;
+    font-weight: bold;
+}
+.detailCard .title {
+    margin-top: -10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.infoDetailCard {
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+}
+
+.domicilioCompania {
+    display: flex;
+    justify-content: center;
+}
+
+
+.gris {
+    filter:saturate(0);
+}
+
+.body {
+    height: 100vh;
+}
+.darkBody {
+    background: #043138;
+}
+.darkHeader {
+    background: #1e5e6c!important;
+}
+
+.darkModeButton {
+    right: 0;
+    position: absolute;
+    margin: 8px 20px 0px 0px;
+    padding: 10px;
+    border-radius: 13px;
+    border-width: 0px;
+    color: #fff;
+    background: #82a4b4;
+    cursor: pointer;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 320px;
+    margin: 0 auto;
+    background: #e9e9e98c;
+    padding: 30px;
+    border-radius: 10px;
+  }
+
+form div{
+    display: flex;
+    flex-direction: column;
+    margin:8px 0px;
+}
+
+form button {
+    margin:8px 0px; 
+    cursor: pointer;
+    background: #90c9e4;
+    border-width: 0px;
+    border-radius: 10px;
+    color:#fff;
+    padding: 10px;
+}
+
+form input {
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #043138;
+    padding: 5px;
+}
+
+.darkButton {
+    background: #043138!important;
+}
+
+.contact {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.infoError {
+    color:rgb(173, 1, 1);
+    margin-top: 15px;
+}
+
+.infoSuccess {
+    color:rgb(44 83 0);
+    margin-top: 15px;
+}
